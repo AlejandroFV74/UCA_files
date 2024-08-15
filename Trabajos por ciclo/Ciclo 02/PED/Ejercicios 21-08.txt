@@ -1,0 +1,85 @@
+¿Son iguales o diferenetes las direcciones de memoria de r y n?
+¿Por qué?
+
+void main(){
+
+int n=33;
+int &r =n;
+
+cout << "&n =" << &n << ", &r="" << &r <<endl;
+
+R// son iguales, ya que, el puntero de la variable r apunta a la variable n, y al imprimir cualquiera de los
+dos siempre se llegará a la misma dirección de memoria.
+
+
+Ejercicio 2
+
+¿cuál es la salida del siguiente programa?
+
+void main(){
+
+int n=35;
+int*p =&n;
+int &r=*p;
+cout<<"r= "<<r<<endl;
+}
+
+Ejercicio 3
+
+¿cuál es la salida del siguiente programa?
+
+void main(){
+
+int n=35;
+int *p=&n;
+cout<<"*p="<< *p<<endl;
+}
+
+
+#include <iostream>
+
+using namespace std;
+
+int arregloEnteros[4]={0,1,2,3};
+
+int *ptr3;
+
+void diretion(int arregloEnteros[4], int valor);
+
+int main()
+{
+
+//Ejercicio: Escribir una función que utilice punteros para buscar la dirección de un entero dado en un arrey dado
+    // la función devuelve su dirección, en caso contrario, devuelve Null.
+
+    int valor=0;
+
+    cout<<"Ingrese el entero que desea buscar: "<<endl;
+    cin>> valor;
+
+    cout<< diretion(arregloEnteros[4], valor)<<endl;
+
+
+    
+    
+
+    return 0;
+}
+
+void diretion(int arregloEnteros[4], int valor){
+
+    for (int i = 0; i < 4; i++)
+    {
+        if (valor== arregloEnteros[i])
+        {
+            ptr3=&valor;
+            cout<< ptr3++<<endl;
+        } 
+        
+    } if (ptr3==nullptr){
+        cout<< "Null";
+    }
+    
+
+}
+

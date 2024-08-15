@@ -1,0 +1,19 @@
+Atributos simples y complejos de una fruta
+
+Fruta: Naranja
+
+Atributos simples: 
+-Nombre
+-Color
+-Sabor
+-Tamaño
+-Peso
+-Precio
+
+Atributos complejos (compuestos):
+-Nombre científico
+-Composición química
+
+Ejercicio:
+Crear
+cliente, pedido, articulo

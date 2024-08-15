@@ -1,0 +1,61 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Estructura para almacenar los datos de los empleados
+struct Credenciales
+{
+    string username;
+    int password;
+}empleado[2];
+
+bool inicioSesion(string infouser, int infopass,struct empleado[]);
+{
+    for (i = 0; i < 2; i++)
+    {
+        cout << "Bienvenid@s al sistema de Sabor Casero" << endl;
+        cout << "Inicio de sesion del Administrador" << endl;
+        cout << "Ingrese su usuario" << endl;
+        cin >> infouser[i];
+        cout << "Ingrese su password" << endl;
+        cin >> infopass[i];
+
+        if (infouser == empleado[i].username && infopass == empleado[i].password)
+        {
+            empleado
+                    cout
+                << "Inicio de sesion exitoso" << endl;
+            return true;
+        }
+        else
+        {
+            cout << "Inicio de sesion fallido" << endl;
+            cout << "Usuario o contasenia incorrecto" << endl;
+            return false;
+        }
+    }
+}
+int main()
+{
+    Credenciales credencialesAdmin;
+    // inicializar los valores de los miembros
+    Credenciales empleado1;
+    Credenciales empleado2;
+
+    string infouser;
+    int infopass;
+
+    empleado1.userName = "denise_mgiron";
+    empleado1.password = 1234;
+    empleado2.userName = "Juan_Carlos";
+    empleado2.password = 12345;
+
+    return 0;
+}
+bool inicioSesion(string infouser, int infopass, Credenciales[])
+{
+    /*if (inicioSesion(string infouser, int infopass, Credenciales[]))
+    {
+        cout << "Mostrar menú de productos..." << endl;
+    }*/
+}
