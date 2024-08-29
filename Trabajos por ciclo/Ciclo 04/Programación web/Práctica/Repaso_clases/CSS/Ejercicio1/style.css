@@ -1,0 +1,29 @@
+h2:nth-of-type(3){
+    color: blue;
+}
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.pink {
+    color: pink;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.italic_bold{
+    font-style: italic;
+    font-weight: bold;
+}
+
+

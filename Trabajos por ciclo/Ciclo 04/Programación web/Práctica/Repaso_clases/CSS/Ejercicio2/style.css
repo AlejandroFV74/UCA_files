@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root{
+    box-sizing: border-box;
+}
+
+.nav-main {
+    background-color: #4f4f51;
+
+}
+
+.nav h1 {
+    color: white ;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
