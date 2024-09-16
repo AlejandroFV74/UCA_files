@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ESTADO_DENUNCIA" directorySegmentName="seg_0" id="EEC76C9C-D50B-CAF8-98D8-EC4213E5D714">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<schemaObject>81A4D9DA-9AC5-2121-AF3F-0F607386EB4D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E365459E-2605-2F9B-F0D5-81A4C3057444</segment>
+<tableSpace>793869BA-DD69-E67E-1EAC-767266C24912</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="C39BB117-6A06-8D9B-F78B-51378528184A">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="CB801B99-49B0-F55B-AD58-20721C1AF31E">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ESTADO_DENUNCIA_PK" id="F01CE4C6-EFA9-1C80-ECDE-1995E25D2470">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:59 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<schemaObject>81A4D9DA-9AC5-2121-AF3F-0F607386EB4D</schemaObject>
+<segment>80F51DC1-C33B-CE27-5A41-A5AE8211DAAB</segment>
+<tableSpace>793869BA-DD69-E67E-1EAC-767266C24912</tableSpace>
+<indexSegment>80F51DC1-C33B-CE27-5A41-A5AE8211DAAB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B49F66D1-6C26-A361-289C-31F5C866AC99" schemaObject="81A4D9DA-9AC5-2121-AF3F-0F607386EB4D" name="COMITE">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>COMITE</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="89AF0E9C-84C6-78FE-DC05-DB175C414881">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>COMITE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="78567161-D656-5BF6-0F7A-A08D9E278338">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>COMITE</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEMA" id="57570409-15A3-F3D1-D206-911277947ECE">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>COMITE</sourceObjSchema>
+<sourceObjName>LEMA</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESPONSABILIDAD" id="C4B7635E-1323-3B86-135E-C48D42CFC7C2">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>COMITE</sourceObjSchema>
+<sourceObjName>RESPONSABILIDAD</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="CEE16112-BFDA-17F8-B2C5-C23929BB71ED">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>COMITE</sourceObjSchema>
+<sourceObjName>CORREO</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="708A2D9A-9F5A-F066-B3E0-8158725B7C49" schemaObject="81A4D9DA-9AC5-2121-AF3F-0F607386EB4D" name="COMITE_PK">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C008470</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:59 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89AF0E9C-84C6-78FE-DC05-DB175C414881"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3062F0D9-41BB-98FB-E005-61EDAC71E820" schemaObject="81A4D9DA-9AC5-2121-AF3F-0F607386EB4D" name="MIEMBRO">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>MIEMBRO</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="EFD52FF9-8CC2-D349-0697-18FC11DBD51F">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>MIEMBRO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_VECINO" id="39D2E182-224E-D4EF-320A-DFABA1005F1A">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>MIEMBRO</sourceObjSchema>
+<sourceObjName>ID_VECINO</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED2748F3-761B-CAF6-4401-CC269AFDF176" referredColumn="A419EB37-7560-5562-D96E-A53CDA48D911"/>
+</associations>
+</Column>
+<Column name="ID_COMITE" id="98874B2B-138D-2826-89B5-818752B3178C">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>MIEMBRO</sourceObjSchema>
+<sourceObjName>ID_COMITE</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="601C0CC2-E349-A7C7-4FE6-837A5552E70F" referredColumn="89AF0E9C-84C6-78FE-DC05-DB175C414881"/>
+</associations>
+</Column>
+<Column name="PERIODO_INICIO" id="52098AF2-675C-EC7C-1974-F9AFAADAB005">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>MIEMBRO</sourceObjSchema>
+<sourceObjName>PERIODO_INICIO</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERIODO_FIN" id="AB78711A-809B-84B6-013A-168ABC722A68">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>MIEMBRO</sourceObjSchema>
+<sourceObjName>PERIODO_FIN</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REPRESENTANTE" id="BF6FBB9D-DD2E-3006-8C71-DC3DDD5652A9">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>MIEMBRO</sourceObjSchema>
+<sourceObjName>ID_REPRESENTANTE</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="738E7E7A-F7A2-0F5F-C63D-38B3B25C64C7" referredColumn="EFD52FF9-8CC2-D349-0697-18FC11DBD51F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="257DEC4F-8E14-67AD-0D93-40B695AC0544" schemaObject="81A4D9DA-9AC5-2121-AF3F-0F607386EB4D" name="MIEMBRO_PK">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C008481</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:59 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFD52FF9-8CC2-D349-0697-18FC11DBD51F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B807BD18-FD0C-935E-F2C4-A68714A4BFE0" name="SYS_C008482">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:22:00 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39D2E182-224E-D4EF-320A-DFABA1005F1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0C2D5A2-B630-06D8-B443-DB08680A6D0C" name="SYS_C008483">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:22:00 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98874B2B-138D-2826-89B5-818752B3178C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A50533B-B089-2FE4-9FCF-0C0D7C604D1B" name="SYS_C008484">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:22:00 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF6FBB9D-DD2E-3006-8C71-DC3DDD5652A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

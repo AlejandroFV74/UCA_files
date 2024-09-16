@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3698BEF2-CCD3-987F-F0FE-FC4C4CA3AC02" schemaObject="81A4D9DA-9AC5-2121-AF3F-0F607386EB4D" name="VOLUNTARIO">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>VOLUNTARIO</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VECINO" id="2D307674-22D2-1517-5190-6B7A7CB79068">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>VOLUNTARIO</sourceObjSchema>
+<sourceObjName>ID_VECINO</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98272960-27B9-8894-707C-92244084BEF5" referredColumn="A419EB37-7560-5562-D96E-A53CDA48D911"/>
+</associations>
+</Column>
+<Column name="ID_EVENTO" id="048CED3F-1CEC-36B7-E94C-F39E9D2A7863">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>VOLUNTARIO</sourceObjSchema>
+<sourceObjName>ID_EVENTO</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C57D621-6367-B04C-CACC-E291FDAB121E" referredColumn="39FBF4F0-E998-CE75-35E9-8114D3C85254"/>
+</associations>
+</Column>
+<Column name="TAREA" id="A1EA27C2-B2F8-52B3-D08E-D338C8F967E4">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>VOLUNTARIO</sourceObjSchema>
+<sourceObjName>TAREA</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CBF5457-AA96-F7A4-4DBA-AF72EFA5A611" schemaObject="81A4D9DA-9AC5-2121-AF3F-0F607386EB4D" name="VOLUNTARIO_PK">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C008485</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:59 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D307674-22D2-1517-5190-6B7A7CB79068"/>
+<colUsage columnID="048CED3F-1CEC-36B7-E94C-F39E9D2A7863"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B8B1EBB-1EBF-A45A-A611-E9323173E576" name="SYS_C008486">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:22:00 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D307674-22D2-1517-5190-6B7A7CB79068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C30D13B-6D6C-8300-579E-4B7FD9FBA7B3" name="SYS_C008487">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:22:00 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="048CED3F-1CEC-36B7-E94C-F39E9D2A7863"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

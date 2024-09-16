@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="VECINO" directorySegmentName="seg_0" id="FABB19C3-0282-74C1-9036-1EC82F4C0CA5">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<schemaObject>81A4D9DA-9AC5-2121-AF3F-0F607386EB4D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E365459E-2605-2F9B-F0D5-81A4C3057444</segment>
+<tableSpace>793869BA-DD69-E67E-1EAC-767266C24912</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FOTOGRAFIA" id="1D5AFF2B-5C99-1087-9A78-6246739BADF2">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO_LOCAL" id="287BD1FB-6240-F6DB-5366-9A263F3B84FE">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="56FE0AEA-0291-1672-CC7C-7349B49979FD">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="A419EB37-7560-5562-D96E-A53CDA48D911">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VECINO_PK" id="98B83217-9A37-A17C-6F81-225F1CD8502F">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:59 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<schemaObject>81A4D9DA-9AC5-2121-AF3F-0F607386EB4D</schemaObject>
+<segment>80F51DC1-C33B-CE27-5A41-A5AE8211DAAB</segment>
+<tableSpace>793869BA-DD69-E67E-1EAC-767266C24912</tableSpace>
+<indexSegment>80F51DC1-C33B-CE27-5A41-A5AE8211DAAB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

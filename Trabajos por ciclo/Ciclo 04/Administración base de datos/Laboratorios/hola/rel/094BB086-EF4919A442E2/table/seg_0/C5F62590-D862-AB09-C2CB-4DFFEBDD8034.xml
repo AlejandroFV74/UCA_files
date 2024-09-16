@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5F62590-D862-AB09-C2CB-4DFFEBDD8034" schemaObject="81A4D9DA-9AC5-2121-AF3F-0F607386EB4D" name="DENUNCIA">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>DENUNCIA</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="77CC59A0-99F0-9A79-1475-AA9020755232">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>DENUNCIA</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="8EC915C4-A00A-940F-FA59-32E91CBBB5D2">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>DENUNCIA</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="179B717C-5D24-3FD5-E023-E14BCEDB7A2F">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>DENUNCIA</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA" id="F8605AA9-1D65-2FE7-E972-EE10BA34404E">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>DENUNCIA</sourceObjSchema>
+<sourceObjName>HORA</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ESTADO" id="2E697A66-AA6F-E2A6-698E-4EA6957E5822">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>DENUNCIA</sourceObjSchema>
+<sourceObjName>ID_ESTADO</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99B4E5F0-FCAA-6C2B-CAA8-4E88705AA527" referredColumn="C39BB117-6A06-8D9B-F78B-51378528184A"/>
+</associations>
+</Column>
+<Column name="ID_VECINO" id="22F39D65-AC3A-C3AE-120B-6F30D8DB4AB7">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>DENUNCIA</sourceObjSchema>
+<sourceObjName>ID_VECINO</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC31A903-E1CD-5B7E-301F-43ED56E6F503" referredColumn="A419EB37-7560-5562-D96E-A53CDA48D911"/>
+</associations>
+</Column>
+<Column name="ID_COMITE" id="15CA7773-B39E-8184-8DB3-5D89BCA33AA9">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>DENUNCIA</sourceObjSchema>
+<sourceObjName>ID_COMITE</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFAE474E-46C6-5E2D-0501-E2767B3A8CE1" referredColumn="89AF0E9C-84C6-78FE-DC05-DB175C414881"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F32EDD5B-B004-0F1D-DF29-71841B535E0F" schemaObject="81A4D9DA-9AC5-2121-AF3F-0F607386EB4D" name="DENUNCIA_PK">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C008473</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:59 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77CC59A0-99F0-9A79-1475-AA9020755232"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F00FE92-BBAD-6AB7-8938-DB2D0AE2B1E8" name="SYS_C008474">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:22:00 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E697A66-AA6F-E2A6-698E-4EA6957E5822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74805AE1-0C6D-C7F6-30B2-BB716F9B4B53" name="SYS_C008475">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:22:00 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22F39D65-AC3A-C3AE-120B-6F30D8DB4AB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AE986D5-23DA-2CCD-D18E-F54EAE7C2E75" name="SYS_C008476">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:22:00 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15CA7773-B39E-8184-8DB3-5D89BCA33AA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

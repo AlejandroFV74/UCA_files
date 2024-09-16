@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DENUNCIA" directorySegmentName="seg_0" id="C5F62590-D862-AB09-C2CB-4DFFEBDD8034">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<schemaObject>81A4D9DA-9AC5-2121-AF3F-0F607386EB4D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E365459E-2605-2F9B-F0D5-81A4C3057444</segment>
+<tableSpace>793869BA-DD69-E67E-1EAC-767266C24912</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_COMITE" id="15CA7773-B39E-8184-8DB3-5D89BCA33AA9">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA" id="179B717C-5D24-3FD5-E023-E14BCEDB7A2F">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_VECINO" id="22F39D65-AC3A-C3AE-120B-6F30D8DB4AB7">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ESTADO" id="2E697A66-AA6F-E2A6-698E-4EA6957E5822">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="77CC59A0-99F0-9A79-1475-AA9020755232">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="8EC915C4-A00A-940F-FA59-32E91CBBB5D2">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HORA" id="F8605AA9-1D65-2FE7-E972-EE10BA34404E">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008476" id="1AE986D5-23DA-2CCD-D18E-F54EAE7C2E75">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:22:00 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008475" id="74805AE1-0C6D-C7F6-30B2-BB716F9B4B53">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:22:00 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008474" id="7F00FE92-BBAD-6AB7-8938-DB2D0AE2B1E8">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:22:00 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DENUNCIA_PK" id="F32EDD5B-B004-0F1D-DF29-71841B535E0F">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:59 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<schemaObject>81A4D9DA-9AC5-2121-AF3F-0F607386EB4D</schemaObject>
+<segment>80F51DC1-C33B-CE27-5A41-A5AE8211DAAB</segment>
+<tableSpace>793869BA-DD69-E67E-1EAC-767266C24912</tableSpace>
+<indexSegment>80F51DC1-C33B-CE27-5A41-A5AE8211DAAB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEC76C9C-D50B-CAF8-98D8-EC4213E5D714" schemaObject="81A4D9DA-9AC5-2121-AF3F-0F607386EB4D" name="ESTADO_DENUNCIA">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>ESTADO_DENUNCIA</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C39BB117-6A06-8D9B-F78B-51378528184A">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>ESTADO_DENUNCIA</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="CB801B99-49B0-F55B-AD58-20721C1AF31E">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>ESTADO_DENUNCIA</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F01CE4C6-EFA9-1C80-ECDE-1995E25D2470" schemaObject="81A4D9DA-9AC5-2121-AF3F-0F607386EB4D" name="ESTADO_DENUNCIA_PK">
+<sourceConnName>Lab01_Admin</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C008466</sourceObjName>
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:59 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C39BB117-6A06-8D9B-F78B-51378528184A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

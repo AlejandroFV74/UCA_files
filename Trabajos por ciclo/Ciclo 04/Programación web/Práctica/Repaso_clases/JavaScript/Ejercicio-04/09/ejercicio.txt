@@ -1,0 +1,6 @@
+Ejercicio 1
+Create an object that registers a list (Array) of a person's life events in single day,
+and a boolean property to check  if that person has had an accident during that day
+
+Ejercicio 2
+Create a higher-order function that transforms an array (every character)

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="COMITE" directorySegmentName="seg_0" id="B49F66D1-6C26-A361-289C-31F5C866AC99">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<schemaObject>81A4D9DA-9AC5-2121-AF3F-0F607386EB4D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E365459E-2605-2F9B-F0D5-81A4C3057444</segment>
+<tableSpace>793869BA-DD69-E67E-1EAC-767266C24912</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LEMA" id="57570409-15A3-F3D1-D206-911277947ECE">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="78567161-D656-5BF6-0F7A-A08D9E278338">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="89AF0E9C-84C6-78FE-DC05-DB175C414881">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESPONSABILIDAD" id="C4B7635E-1323-3B86-135E-C48D42CFC7C2">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO" id="CEE16112-BFDA-17F8-B2C5-C23929BB71ED">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:58 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMITE_PK" id="708A2D9A-9F5A-F066-B3E0-8158725B7C49">
+<createdBy>Abraham</createdBy>
+<createdTime>2024-09-04 00:21:59 UTC</createdTime>
+<ownerDesignName>hola</ownerDesignName>
+<schemaObject>81A4D9DA-9AC5-2121-AF3F-0F607386EB4D</schemaObject>
+<segment>80F51DC1-C33B-CE27-5A41-A5AE8211DAAB</segment>
+<tableSpace>793869BA-DD69-E67E-1EAC-767266C24912</tableSpace>
+<indexSegment>80F51DC1-C33B-CE27-5A41-A5AE8211DAAB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
