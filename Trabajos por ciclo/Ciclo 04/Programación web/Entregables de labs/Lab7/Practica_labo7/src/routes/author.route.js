@@ -1,0 +1,1 @@
+authorRouter.put('/:authorId/:bookId', assingBookToAuthorController)
