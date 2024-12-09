@@ -1,0 +1,58 @@
+#cloud-config
+autoinstall:
+  # version is an Autoinstall required field.
+  version: 1
+
+  apt:
+    fallback: offline-install
+
+  locale: en_US
+  keyboard:
+    layout: us
+
+  identity:
+    realname: 'alejandro74'
+    username: 'alejandro74'
+    password: '$6$tpbIsVbkRFj8/.LF$Q/q9FCKQ5ixPjV5s5/16UyVnTqKwqwLFxOseN2JHAqaRM8h94JllyMUZm0wIzSsSQFv9EYHL5/vDyUM1FE/Ht0'
+    hostname: 'Lab10VirtualBox'
+
+  shutdown: reboot
+
+  storage:
+    layout:
+      name: direct
+    swap:
+      size: 0
+
+
+
+
+
+  # Custom Commands.
+  late-commands:
+    - cp /cdrom/vboxpostinstall.sh /target/root/vboxpostinstall.sh
+    - chmod +x /target/root/vboxpostinstall.sh
+    - curtin in-target --target=/target -- /bin/bash /root/vboxpostinstall.sh --direct
+
+  # Additional cloud-init configuration affecting the target system can be supplied
+  # underneath a user-data section inside of autoinstall.
+  user-data:
+
+    users:
+      - name: root
+        primary_group: root
+        groups: sudo
+        lock-passwd: false
+        passwd: '$6$7LbBRfAo5vvXRQ3O$IQZhJvbcShNcAFhat0fdHEPqNkvTVypZtFp6aRdST/S/pnx.RicWUcMFz5zk7vKAOO6URgbb.34fJLlKS2Ipt0'
+        uid: 0
+
+
+    timezone: Etc/UTC
+
+
+
+    ntp:
+
+
+        enabled: true
+
